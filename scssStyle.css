@@ -1,0 +1,131 @@
+.team .asosiy p {
+  color: #555;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
+
+.news .media-content * {
+  line-height: 2;
+}
+
+.news .media-content .bold-p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.news .media-content p {
+  color: #555;
+}
+
+.news .media-content .icons {
+  color: #555;
+}
+
+.career .col-12 {
+  height: 450px;
+  position: relative;
+}
+
+.career .col-12 img {
+  position: absolute;
+  width: 93%;
+  height: 96%;
+  top: 0;
+}
+
+.career .col-12 h5 {
+  color: var(--gold);
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.career .col-12 h3 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.career .col-12 p {
+  color: #aaa;
+  margin: 1.5rem 0;
+}
+
+.career .col-12 button {
+  background-color: var(--gold);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.career .col-12 form input,
+.career .col-12 form textarea {
+  border: none;
+  border-radius: unset;
+  outline: none !important;
+  border-bottom: 1px solid #aaa;
+  color: #eee;
+}
+
+.career .col-12 form textarea {
+  overflow: auto;
+  max-height: 50px;
+}
+
+.lets {
+  background: url("./images/bg/bg-121.jpg.jpg") center/cover no-repeat;
+}
+
+.lets button {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("./images/bg/footer-bg.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./images/bg/footer-bg.jpg") center/cover no-repeat;
+}
+
+footer .col-12 h4 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
+footer .col-12 ul i, footer .col-12 a {
+  color: var(--gold);
+}
+
+footer .col-12 ul li,
+footer .col-12 i,
+footer .col-12 a {
+  color: #777;
+  line-height: 2;
+}
+
+footer .col-12 ul li:hover,
+footer .col-12 i:hover,
+footer .col-12 a:hover {
+  color: #eee;
+  text-shadow: 0 0 2px var(--white);
+}
+
+footer .footer-bottom i {
+  font-size: 20px;
+}
+
+footer .footer-bottom p {
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 0 2px var(--white);
+}
+
+@media (max-width: 576px) {
+  footer li, a, p {
+    font-size: 14px;
+  }
+  footer h4 {
+    font-size: 17px !important;
+  }
+}
+/*# sourceMappingURL=scssStyle.css.map */
